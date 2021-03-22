@@ -8,7 +8,9 @@ namespace Graphstuff
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            List<object> neighbours = new List<object>();
+            TreeNode root = new TreeNode("M");
+            root.Left = new TreeNode("Z");
+            root.Right = new TreeNode("A");
         }
     }
 }
