@@ -56,10 +56,10 @@ namespace Graphstuff
         /// <summary>
         /// treat data item as string
         /// </summary>
-        public string intString { get { return (string)data; } }
+        public string stringData { get { return (string)data; } }
         /// <summary>
         /// treat data item as float
         /// </summary>
-        public float intFloat { get { return (float)data; } }
+        public float floatData { get { return (float)data; } }
     }
 }
