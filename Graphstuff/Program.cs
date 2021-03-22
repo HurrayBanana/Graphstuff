@@ -7,6 +7,8 @@ namespace Graphstuff
     {
         static void Main(string[] args)
         {
+            Node n = new Node("DAVE");
+
             Console.WriteLine("Hello World!");
             TreeNode root = new TreeNode("M");
             root.Left = new TreeNode("Z");
