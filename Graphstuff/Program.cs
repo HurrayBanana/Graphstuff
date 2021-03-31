@@ -7,26 +7,13 @@ namespace Graphstuff
     {
         static void Main(string[] args)
         {
-            Node n = new Node("DAVE");
-
             Console.WriteLine("Hello World!");
-            TreeNode root = new TreeNode("M");
-            root.Left = new TreeNode("Z");
-            root.Right = new TreeNode("A");
 
-
-            /*
-                B <-- 10 ----- A <------ 5 ----> C
-            */
-
-            DijkstraNode dA = new DijkstraNode("A");
-            DijkstraNode dB = new DijkstraNode("B");
-            DijkstraNode dC = new DijkstraNode("C");
-
-            dA.AddNeighbour(dB, 10);
-            dA.AddUndirectedNeighbour(dC, 5);
-
-
+            Tree t = new Tree();
+            TreeNode n = new TreeNode(7);
+            t.Add(n);
+            TreeNode n2 = new TreeNode(12);
+            t.Add(n2);
         }
     }
 }

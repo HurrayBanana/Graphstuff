@@ -19,7 +19,7 @@ namespace Graphstuff
         /// </summary>
         /// <param name="data"></param>
         public TreeNode(object data)
-            :base(data)
+            : base(data)
         {
             //create neighbours for the left and right branches
             base.AddNeighbour(null);
@@ -30,8 +30,8 @@ namespace Graphstuff
         /// </summary>
         public TreeNode Left
         {
-            get {return (TreeNode)Neighbours[LEFT]; }
-            set {Neighbours[LEFT] = value;}
+            get { return (TreeNode)Neighbours[LEFT]; }
+            set { Neighbours[LEFT] = value; }
         }
         /// <summary>
         /// accessor for the node following the right branch
